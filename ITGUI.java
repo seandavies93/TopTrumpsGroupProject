@@ -7,6 +7,8 @@ import java.io.*;
  * Defines a GUI that displays details of a Gameplay object
  * and contains buttons enabling access to the required functionality.
  */
+ //Class and gui by Ieva Bagdonaite
+ //actionPerformed implemented by Sean Davies
 public class ITGUI extends JFrame implements ActionListener
 {
     /** GUI JButtons */

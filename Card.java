@@ -2,7 +2,8 @@
  * The class Card represents the Card object, it is suppossed to 
  * be universal for every topic like Simpsons, Dinosaurs e.t.c.
  */
-public class Card {
+public class Card
+{
     //type - e.g. TRex
     private String type = " ";
     //char1Desc - description of characteristic 1, e.g. height 
@@ -15,7 +16,6 @@ public class Card {
     public Card(){
         
     }
-    
     /**constructor
     *takes as parameter a String in the format TRex 6 6 12 9 9
     *and instantiates a Card object*/
@@ -59,8 +59,6 @@ public class Card {
         characteristic[index] = value;
     }
 
-    
-    
     /**
      * 
      * @param index
@@ -70,7 +68,6 @@ public class Card {
             return characteristic[index];
     }
 
-    
     /**
      * Returns the type of the card
      * @return

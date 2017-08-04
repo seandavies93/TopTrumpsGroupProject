@@ -5,7 +5,10 @@ import java.util.Random;
  * @author Sean
  *
  */
-public class GamePlay {
+ //Written by Sean Davies
+ //Testing by Evgenia Noidou
+public class GamePlay
+{
 
 	//instance variable declaration
 	//stores the shuffled deck
